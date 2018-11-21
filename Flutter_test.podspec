@@ -27,16 +27,13 @@ Pod::Spec.new do |s|
   s.author             = { "xiezhenfeng" => "xiezhenfeng@58ganji.com" }
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/GG-beyond/flutter_test.git", :tag => "1.0.8" }
+  s.source       = { :git => "https://github.com/GG-beyond/flutter_test.git", :tag => "1.0.9" }
 
 
-  s.source_files  = "Flutter/*.xcconfig","Flutter/*.plist",Flutter/*.framework"
+  s.source_files  = "Flutter/*"
+  s.vendored_frameworks = "Flutter/*.framework"
+#子文件夹
   s.subspec 'flutter_assets' do |t|
-    	t.source_files = "Flutter/flutter_assets/*"
-#  s.resource = "Flutter/*"
-#你的SDK路径
-#s.vendored_frameworks = 'Flutter/*.framework'
-
-
-
+    t.source_files = "Flutter/flutter_assets/*" 
+ end
 end
