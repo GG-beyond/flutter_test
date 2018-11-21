@@ -31,7 +31,6 @@ Pod::Spec.new do |s|
 
 
   s.source_files  = "Flutter/*"
-  s.vendored_frameworks = "Flutter/*.framework"
 #子文件夹
   s.subspec 'flutter_assets' do |t|
     t.source_files = "Flutter/flutter_assets/*"
@@ -42,13 +41,9 @@ Pod::Spec.new do |s|
 	 i.source_files = "Flutter/flutter_assets/images/*"
     end	
     t.subspec 'packages' do |p|
-	 p.source_files = "Flutter/flutter_assets/packages/*"
-	 p.subspec 'cupertino_icons' do |cu|
-	    cu.source_files = "Flutter/flutter_assets/packages/cupertino_icons/*"
-	    cu.subspec 'assets' do |as|
-               	 as.source_files = "Flutter/flutter_assets/packages/cupertino_icons/assets/*"
-	    end
-	end
+	p.source_files = "Flutter/flutter_assets/packages/cupertino_icons/assets/*"
     end	
   end
+  s.vendored_frameworks = "Flutter/*.framework"
+
 end
