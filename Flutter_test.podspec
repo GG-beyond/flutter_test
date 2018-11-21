@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/GG-beyond/flutter_test.git", :tag => "1.0.8" }
 
 
-  s.source_files  = "Flutter/*xcconfig","Flutter/*.plist",Flutter/*.framework"
+  s.source_files  = "Flutter/*.xcconfig","Flutter/*.plist",Flutter/*.framework"
   s.subspec 'flutter_assets' do |t|
     	t.source_files = "Flutter/flutter_assets/*"
 #  s.resource = "Flutter/*"
