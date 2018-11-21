@@ -27,7 +27,7 @@ Pod::Spec.new do |s|
   s.author             = { "xiezhenfeng" => "xiezhenfeng@58ganji.com" }
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/GG-beyond/flutter_test.git", :tag => "1.0.10" }
+  s.source       = { :git => "https://github.com/GG-beyond/flutter_test.git", :tag => "1.0.11" }
 
 
   s.source_files  = "Flutter/*"
@@ -45,7 +45,7 @@ Pod::Spec.new do |s|
 	 p.source_files = "Flutter/flutter_assets/packages/*"
 	 p.subspec 'cupertino_icons' do |cu|
 	    cu.source_files = "Flutter/flutter_assets/packages/cupertino_icons/*"
-	    cu.subspec 'cupertino_icons' do |as|
+	    cu.subspec 'assets' do |as|
                	 as.source_files = "Flutter/flutter_assets/packages/cupertino_icons/assets/*"
 	    end
 	end
