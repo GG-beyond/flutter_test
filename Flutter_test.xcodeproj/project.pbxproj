@@ -16,7 +16,7 @@
 		373BAAB621A5656600507FDF /* App.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 373BAAA921A5653300507FDF /* App.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		373BAAB721A5656600507FDF /* Flutter.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 373BAAA821A5653200507FDF /* Flutter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		373BAABB21A569B800507FDF /* flutter_assets in Resources */ = {isa = PBXBuildFile; fileRef = 373BAABA21A569B800507FDF /* flutter_assets */; };
-		373BAABE21A682AC00507FDF /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 373BAABD21A682AC00507FDF /* GeneratedPluginRegistrant.m */; };
+		373BAAC121A68A3F00507FDF /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 373BAAC021A68A3F00507FDF /* GeneratedPluginRegistrant.m */; };
 		37C7702521A2A91400658B4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C7702421A2A91400658B4A /* AppDelegate.m */; };
 		37C7702821A2A91400658B4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C7702721A2A91400658B4A /* ViewController.m */; };
 		37C7702B21A2A91400658B4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C7702921A2A91400658B4A /* Main.storyboard */; };
@@ -48,8 +48,8 @@
 		373BAAAC21A5653300507FDF /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		373BAAAE21A5653300507FDF /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		373BAABA21A569B800507FDF /* flutter_assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = flutter_assets; sourceTree = "<group>"; };
-		373BAABC21A682AC00507FDF /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
-		373BAABD21A682AC00507FDF /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
+		373BAABF21A68A3F00507FDF /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
+		373BAAC021A68A3F00507FDF /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		37C7702021A2A91400658B4A /* Flutter_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flutter_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C7702321A2A91400658B4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37C7702421A2A91400658B4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -82,8 +82,8 @@
 		373BAAA721A5651C00507FDF /* Flutter */ = {
 			isa = PBXGroup;
 			children = (
-				373BAABC21A682AC00507FDF /* GeneratedPluginRegistrant.h */,
-				373BAABD21A682AC00507FDF /* GeneratedPluginRegistrant.m */,
+				373BAABF21A68A3F00507FDF /* GeneratedPluginRegistrant.h */,
+				373BAAC021A68A3F00507FDF /* GeneratedPluginRegistrant.m */,
 				373BAAA921A5653300507FDF /* App.framework */,
 				373BAAAA21A5653300507FDF /* AppFrameworkInfo.plist */,
 				373BAAAE21A5653300507FDF /* Debug.xcconfig */,
@@ -271,7 +271,7 @@
 				37C7702821A2A91400658B4A /* ViewController.m in Sources */,
 				37C7703321A2A91400658B4A /* main.m in Sources */,
 				37C7702521A2A91400658B4A /* AppDelegate.m in Sources */,
-				373BAABE21A682AC00507FDF /* GeneratedPluginRegistrant.m in Sources */,
+				373BAAC121A68A3F00507FDF /* GeneratedPluginRegistrant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

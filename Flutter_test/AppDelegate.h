@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import <Flutter/Flutter.h>
+#import "GeneratedPluginRegistrant.h"
 
 @interface AppDelegate : FlutterAppDelegate <UIApplicationDelegate>
 
