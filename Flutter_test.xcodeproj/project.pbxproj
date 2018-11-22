@@ -7,15 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		373BAA9021A5500A00507FDF /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373BAA8921A5500A00507FDF /* Flutter.framework */; };
-		373BAA9121A5500A00507FDF /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373BAA8A21A5500A00507FDF /* App.framework */; };
-		373BAA9221A5500A00507FDF /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 373BAA8B21A5500A00507FDF /* AppFrameworkInfo.plist */; };
-		373BAA9321A5500A00507FDF /* Generated.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 373BAA8C21A5500A00507FDF /* Generated.xcconfig */; };
-		373BAA9421A5500A00507FDF /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 373BAA8D21A5500A00507FDF /* Release.xcconfig */; };
-		373BAA9521A5500A00507FDF /* flutter_assets in Resources */ = {isa = PBXBuildFile; fileRef = 373BAA8E21A5500A00507FDF /* flutter_assets */; };
-		373BAA9621A5500A00507FDF /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 373BAA8F21A5500A00507FDF /* Debug.xcconfig */; };
-		373BAA9721A5502900507FDF /* App.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 373BAA8A21A5500A00507FDF /* App.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		373BAA9821A5502900507FDF /* Flutter.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 373BAA8921A5500A00507FDF /* Flutter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		373BAAAF21A5653300507FDF /* Flutter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373BAAA821A5653200507FDF /* Flutter.framework */; };
+		373BAAB021A5653300507FDF /* App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 373BAAA921A5653300507FDF /* App.framework */; };
+		373BAAB121A5653300507FDF /* AppFrameworkInfo.plist in Resources */ = {isa = PBXBuildFile; fileRef = 373BAAAA21A5653300507FDF /* AppFrameworkInfo.plist */; };
+		373BAAB221A5653300507FDF /* Generated.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 373BAAAB21A5653300507FDF /* Generated.xcconfig */; };
+		373BAAB321A5653300507FDF /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 373BAAAC21A5653300507FDF /* Release.xcconfig */; };
+		373BAAB521A5653300507FDF /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 373BAAAE21A5653300507FDF /* Debug.xcconfig */; };
+		373BAAB621A5656600507FDF /* App.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 373BAAA921A5653300507FDF /* App.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		373BAAB721A5656600507FDF /* Flutter.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 373BAAA821A5653200507FDF /* Flutter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		373BAABB21A569B800507FDF /* flutter_assets in Resources */ = {isa = PBXBuildFile; fileRef = 373BAABA21A569B800507FDF /* flutter_assets */; };
+		373BAABE21A682AC00507FDF /* GeneratedPluginRegistrant.m in Sources */ = {isa = PBXBuildFile; fileRef = 373BAABD21A682AC00507FDF /* GeneratedPluginRegistrant.m */; };
 		37C7702521A2A91400658B4A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C7702421A2A91400658B4A /* AppDelegate.m */; };
 		37C7702821A2A91400658B4A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37C7702721A2A91400658B4A /* ViewController.m */; };
 		37C7702B21A2A91400658B4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37C7702921A2A91400658B4A /* Main.storyboard */; };
@@ -32,21 +33,23 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				373BAA9721A5502900507FDF /* App.framework in CopyFiles */,
-				373BAA9821A5502900507FDF /* Flutter.framework in CopyFiles */,
+				373BAAB621A5656600507FDF /* App.framework in CopyFiles */,
+				373BAAB721A5656600507FDF /* Flutter.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		373BAA8921A5500A00507FDF /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
-		373BAA8A21A5500A00507FDF /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
-		373BAA8B21A5500A00507FDF /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppFrameworkInfo.plist; sourceTree = "<group>"; };
-		373BAA8C21A5500A00507FDF /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Generated.xcconfig; sourceTree = "<group>"; };
-		373BAA8D21A5500A00507FDF /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		373BAA8E21A5500A00507FDF /* flutter_assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = flutter_assets; sourceTree = "<group>"; };
-		373BAA8F21A5500A00507FDF /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		373BAAA821A5653200507FDF /* Flutter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Flutter.framework; sourceTree = "<group>"; };
+		373BAAA921A5653300507FDF /* App.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = App.framework; sourceTree = "<group>"; };
+		373BAAAA21A5653300507FDF /* AppFrameworkInfo.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AppFrameworkInfo.plist; sourceTree = "<group>"; };
+		373BAAAB21A5653300507FDF /* Generated.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Generated.xcconfig; sourceTree = "<group>"; };
+		373BAAAC21A5653300507FDF /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		373BAAAE21A5653300507FDF /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		373BAABA21A569B800507FDF /* flutter_assets */ = {isa = PBXFileReference; lastKnownFileType = folder; path = flutter_assets; sourceTree = "<group>"; };
+		373BAABC21A682AC00507FDF /* GeneratedPluginRegistrant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeneratedPluginRegistrant.h; sourceTree = "<group>"; };
+		373BAABD21A682AC00507FDF /* GeneratedPluginRegistrant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeneratedPluginRegistrant.m; sourceTree = "<group>"; };
 		37C7702021A2A91400658B4A /* Flutter_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flutter_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C7702321A2A91400658B4A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37C7702421A2A91400658B4A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -68,18 +71,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				413EB057982EF30A8FB4CE99 /* libPods-Flutter_test.a in Frameworks */,
-				373BAA9121A5500A00507FDF /* App.framework in Frameworks */,
-				373BAA9021A5500A00507FDF /* Flutter.framework in Frameworks */,
+				373BAAB021A5653300507FDF /* App.framework in Frameworks */,
+				373BAAAF21A5653300507FDF /* Flutter.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		373BAAA721A5651C00507FDF /* Flutter */ = {
+			isa = PBXGroup;
+			children = (
+				373BAABC21A682AC00507FDF /* GeneratedPluginRegistrant.h */,
+				373BAABD21A682AC00507FDF /* GeneratedPluginRegistrant.m */,
+				373BAAA921A5653300507FDF /* App.framework */,
+				373BAAAA21A5653300507FDF /* AppFrameworkInfo.plist */,
+				373BAAAE21A5653300507FDF /* Debug.xcconfig */,
+				373BAABA21A569B800507FDF /* flutter_assets */,
+				373BAAA821A5653200507FDF /* Flutter.framework */,
+				373BAAAB21A5653300507FDF /* Generated.xcconfig */,
+				373BAAAC21A5653300507FDF /* Release.xcconfig */,
+			);
+			path = Flutter;
+			sourceTree = "<group>";
+		};
 		37C7701721A2A91400658B4A = {
 			isa = PBXGroup;
 			children = (
-				37CBEF2221A2C84300C2BDC4 /* Flutter */,
+				373BAAA721A5651C00507FDF /* Flutter */,
 				37C7702221A2A91400658B4A /* Flutter_test */,
 				37C7702121A2A91400658B4A /* Products */,
 				9DB22417535E31A8DAE71269 /* Pods */,
@@ -109,20 +128,6 @@
 				37C7703221A2A91400658B4A /* main.m */,
 			);
 			path = Flutter_test;
-			sourceTree = "<group>";
-		};
-		37CBEF2221A2C84300C2BDC4 /* Flutter */ = {
-			isa = PBXGroup;
-			children = (
-				373BAA8A21A5500A00507FDF /* App.framework */,
-				373BAA8B21A5500A00507FDF /* AppFrameworkInfo.plist */,
-				373BAA8F21A5500A00507FDF /* Debug.xcconfig */,
-				373BAA8E21A5500A00507FDF /* flutter_assets */,
-				373BAA8921A5500A00507FDF /* Flutter.framework */,
-				373BAA8C21A5500A00507FDF /* Generated.xcconfig */,
-				373BAA8D21A5500A00507FDF /* Release.xcconfig */,
-			);
-			path = Flutter;
 			sourceTree = "<group>";
 		};
 		4851146632810170C007D47B /* Frameworks */ = {
@@ -203,13 +208,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				37C7703021A2A91400658B4A /* LaunchScreen.storyboard in Resources */,
-				373BAA9321A5500A00507FDF /* Generated.xcconfig in Resources */,
-				373BAA9521A5500A00507FDF /* flutter_assets in Resources */,
-				373BAA9421A5500A00507FDF /* Release.xcconfig in Resources */,
-				373BAA9621A5500A00507FDF /* Debug.xcconfig in Resources */,
+				373BAAB221A5653300507FDF /* Generated.xcconfig in Resources */,
+				373BAAB321A5653300507FDF /* Release.xcconfig in Resources */,
+				373BAAB521A5653300507FDF /* Debug.xcconfig in Resources */,
 				37C7702D21A2A91400658B4A /* Assets.xcassets in Resources */,
 				37C7702B21A2A91400658B4A /* Main.storyboard in Resources */,
-				373BAA9221A5500A00507FDF /* AppFrameworkInfo.plist in Resources */,
+				373BAABB21A569B800507FDF /* flutter_assets in Resources */,
+				373BAAB121A5653300507FDF /* AppFrameworkInfo.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +271,7 @@
 				37C7702821A2A91400658B4A /* ViewController.m in Sources */,
 				37C7703321A2A91400658B4A /* main.m in Sources */,
 				37C7702521A2A91400658B4A /* AppDelegate.m in Sources */,
+				373BAABE21A682AC00507FDF /* GeneratedPluginRegistrant.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
