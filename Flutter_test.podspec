@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "Flutter_test"
-  s.version      = "0.0.9"
+  s.version      = "0.0.10"
   s.summary      = "A flutter test"
 
   
@@ -27,8 +27,9 @@ Pod::Spec.new do |s|
   s.author             = { "xiezhenfeng" => "xiezhenfeng@58ganji.com" }
   s.platform     = :ios, "8.0"
 
-  s.source       = { :git => "https://github.com/GG-beyond/flutter_test.git", :tag => "1.0.14" }
+  s.source       = { :git => "https://github.com/GG-beyond/flutter_test.git", :tag => "1.0.15" }
 
+  s.source_files = "Flutter/*.{h,m}"
 
   s.resources = "Flutter/*"
   s.vendored_frameworks = "Flutter/*.framework"
